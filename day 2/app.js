@@ -1,8 +1,8 @@
-// Premitive vs By Refrence 
-// Premitive Data Type : String("kabeer"), number(12, 12.452), boolean(true,false),null,undefined,symbol("name"),bigint  
+// Primitive vs By Refrence 
+// Primitive Data Type : String("kabeer"), number(12, 12.452), boolean(true,false),null,undefined,symbol("name"),bigint  
 // Refrence Data Type : Array, function, object
 
-// Premitive
+// Primitive
 let a = "Kabeer"; //string
 let b = 100; //number
 let c = true; //boolean
@@ -14,7 +14,7 @@ h = "hussain"
 let i = "100";
 console.log(h) //output: hussain , result corrected  
 console.log(a) //output: Kabeer , result corrected 
-// Reason : ye sab premitive type hain jab hum aik variable ko kisi dosre variable me assign kren ge tu exact value assign nhi hogi balke uski copy assign hogi agr hum copy me changes kren ge tu real value me change nhi hoga
+// Reason : ye sab primitive type hain jab hum aik variable ko kisi dosre variable me assign kren ge tu exact value assign nhi hogi balke uski copy assign hogi agr hum copy me changes kren ge tu real value me change nhi hoga
 
 //By Refrence
 var obj1 = {
