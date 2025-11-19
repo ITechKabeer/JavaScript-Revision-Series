@@ -120,6 +120,7 @@ console.log(a.toLocaleLowerCase("tr")) // output : my name ıs kabeer hussain , 
 // OTHER METHODS
 // ====================================
 
+console.log(b.length) //output : 14
 console.log(a.normalize())
 console.log(h.padStart("6", "0")) // output : 000123
 console.log(h.padEnd("10", "0")) // output : 1230000000
