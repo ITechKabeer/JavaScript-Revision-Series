@@ -49,7 +49,7 @@ let matches = g.matchAll(/JavaScript/g);
 console.log(Array.from(matches)); // output : (2) [Array(1), Array(1)]
 // ['JavaScript', index: 7, input: 'I love JavaScript and JavaScript loves me', groups: undefined]
 // ['JavaScript', index: 22, input: 'I love JavaScript and JavaScript loves me', groups: undefined]
-console.log(a.search(/Kabeer/)) // output : 11 , variable me text ka index number batata hai 
+console.log(a.search(/" "/)) // output : 11 , variable me text ka index number batata hai 
 console.log(f.lastIndexOf("Kabeer"));// output : 34, dekhta hai agr do bar ya zayada bar word use howa tu last wala kis num pe hai
 
 // ====================================
