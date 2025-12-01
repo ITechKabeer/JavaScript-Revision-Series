@@ -10,6 +10,9 @@ let obj = {
 // key : value 
 // } 
 
+// chck property in object 
+console.log('age' in obj)
+
 // Dot Notation  (Key ko access krne ke liye) 
 console.log(obj.isStudent)
 //[] notation (same work as dot notation)
@@ -27,6 +30,7 @@ console.log(obj.fullname) //output : undefined (Reason : variable ko access nhi 
 
 //Add/Delete property
 obj.country = "Pakistan"
+obj['campus'] = "ZAIT"
 
 console.log(obj) // country added
 
