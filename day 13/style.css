@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px;
+}
+
+button{
+    padding: 15px;
+}
+
+.background{
+    background: #333333;
+}
+
+input{
+    height: 30px;
+    font-size: 18px;
+    padding: 0 10px;
+}

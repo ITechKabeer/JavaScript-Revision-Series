@@ -42,6 +42,7 @@ console.log(fruits) //Update Array
 console.log(arr.toString()) // output : kabeer,hussain,waleed,faizan,asif,anwar 
 console.log(arr.slice(2, 5)) // same as string slice method ,slice array ki copy banata hai
 console.log(number.splice(2, 5, 102,554541,8741)) 
+// console.log(number.splice())
 console.log(number) // output :  [1, 2, 102, 554541, 8741, 8, 9, 45, 78, 72, 64]
 console.log(concat1)
 console.log(concat1.indexOf("blueberry")) // same as string indexof
